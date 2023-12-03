@@ -1,0 +1,92 @@
+.Readbtn {
+    color: blue;
+}
+
+
+.card-cont {
+margin: 0px auto;
+    min-height: 690px;
+    max-height: auto;
+    width: 500px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* position: relative; */
+    /* padding-top: 50px; */
+    box-shadow: 0px 0px 15px 1px black;
+    border-radius: 5px;
+    transition:  all 0.3s ease-in;
+    overflow: hidden;
+}
+.para{
+    width: 450px;
+}
+
+.card-cont:hover {
+     transform: scale(1.03);
+}
+
+.img-cont{
+    height: 500px;
+    width: 100%;
+}
+img {
+    /* top: ; */
+    /* position: absolute; */
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+
+    /* display: flex; */
+    /* padding: 10px 20px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.rate-info{
+padding-left: 20px;
+
+
+}
+.Readbtn{
+    cursor: pointer;
+}
+
+.Price{
+    color: green;
+    font-weight: bold;
+}
+
+.Butoons{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.Notin{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 40px;
+    font-weight: bold;
+font-size: 15px;
+   
+}
+
+.interest{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 40px;
+    font-weight: bold;
+font-size: 15px;
+}
